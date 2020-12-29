@@ -23,9 +23,6 @@ variable "instance_type" {
   default = "t2.micro"
 }
 
-variable "key_name" {
-  default = "cba"
-}
 
 variable "vpc" {
   default = "vpc-8d4d9cf7"
