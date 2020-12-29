@@ -19,9 +19,6 @@ resource "aws_security_group" "securitygr" {
   name        = "security2"
   description = "create security group"
   
-  
-  
-
   ingress {
     from_port   = 443
     to_port     = 443
