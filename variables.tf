@@ -25,7 +25,7 @@ variable "instance_type" {
 
 variable "key_name" {
   default = "cba"
-
+  }
 
 variable "vpc" {
   default = "vpc-8d4d9cf7"
